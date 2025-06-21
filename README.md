@@ -44,12 +44,12 @@ Derived fields include:
 ## 📊 Visualizations
 
 Each objective features multiple Power BI visuals for data storytelling, including:
-- **Scatter plots**: Return Rate vs Adjusted LTV
-- **Bar charts**: Category-wise Return Rates
-- **Line charts**: Monthly Revenue vs Adjusted Revenue
-- **Histograms**: Return Distribution across Demographics
-- **Donut + KPI cards**: Global Revenue vs Return Impact
-- **Heatmaps and stacked visuals** for retention strategy breakdowns
+1. **How do returns affect total Customer Lifetime Value (LTV)?**
+2. **Which product categories have the highest return rates and how do they impact revenue and LTV?**
+3. **Are specific customer demographics (age, gender) associated with higher return rates and lower LTV?**
+4. **Is there a correlation between return frequency and customer churn?**
+5. **Do payment methods affect the likelihood of returns and their influence on LTV?**
+6. **How can we use return data to develop customer retention strategies?**
 
 All visuals are interactive and were created in Power BI Desktop.
 
