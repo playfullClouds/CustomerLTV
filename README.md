@@ -63,11 +63,10 @@ Each project objective is supported by an interactive Power BI report. Click any
 | Objective | Title | Power BI Link |
 |-----------|-------|----------------|
 | 1 | How do returns affect total Customer Lifetime Value (LTV)? | [🔗 View Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNjQ1MTQ4YzYtMzAyOC00NTc2LTg5Y2YtZDA0OWE0YTMyZjIxIiwidCI6ImQ2YzI2MTkwLTNlY2MtNDgxYi05ZjRmLTZiZDk3NGI3YTUxMSIsImMiOjJ9) |
-| 2 | Product Categories with High Return Rates | [🔗 View Dashboard](https://app.powerbi.com/view?r=REPLACE_WITH_LINK2) |
-| 3 | Demographic Trends: Age & Gender vs Return Behavior | [🔗 View Dashboard](https://app.powerbi.com/view?r=REPLACE_WITH_LINK3) |
-| 4 | Return Frequency and Churn | [🔗 View Dashboard](https://app.powerbi.com/view?r=REPLACE_WITH_LINK4) |
-| 5 | Payment Method vs Return Pattern & LTV | [🔗 View Dashboard](https://app.powerbi.com/view?r=REPLACE_WITH_LINK5) |
-| 6 | Strategic Retention Actions from Return Data | [🔗 View Dashboard](https://app.powerbi.com/view?r=REPLACE_WITH_LINK6) |
+| 2 | Which product categories have the highest return rates and how do they impact revenue and LTV? | [🔗 View Dashboard]([https://app.powerbi.com/view?r=REPLACE_WITH_LINK2](https://app.powerbi.com/view?r=eyJrIjoiNjQ1MTQ4YzYtMzAyOC00NTc2LTg5Y2YtZDA0OWE0YTMyZjIxIiwidCI6ImQ2YzI2MTkwLTNlY2MtNDgxYi05ZjRmLTZiZDk3NGI3YTUxMSIsImMiOjJ9) |
+| 3 | Are specific customer demographics (age, gender) associated with higher return rates and lower LTV? | [🔗 View Dashboard]([https://app.powerbi.com/view?r=REPLACE_WITH_LINK3](https://app.powerbi.com/view?r=eyJrIjoiNjQ1MTQ4YzYtMzAyOC00NTc2LTg5Y2YtZDA0OWE0YTMyZjIxIiwidCI6ImQ2YzI2MTkwLTNlY2MtNDgxYi05ZjRmLTZiZDk3NGI3YTUxMSIsImMiOjJ9) |
+| 4 | Is there a correlation between return frequency and customer churn? | [🔗 View Dashboard]([https://app.powerbi.com/view?r=REPLACE_WITH_LINK4](https://app.powerbi.com/view?r=eyJrIjoiNjQ1MTQ4YzYtMzAyOC00NTc2LTg5Y2YtZDA0OWE0YTMyZjIxIiwidCI6ImQ2YzI2MTkwLTNlY2MtNDgxYi05ZjRmLTZiZDk3NGI3YTUxMSIsImMiOjJ9) |
+| 5 | Do payment methods affect the likelihood of returns and their influence on LTV? | [🔗 View Dashboard]([https://app.powerbi.com/view?r=REPLACE_WITH_LINK5](https://app.powerbi.com/view?r=eyJrIjoiNjQ1MTQ4YzYtMzAyOC00NTc2LTg5Y2YtZDA0OWE0YTMyZjIxIiwidCI6ImQ2YzI2MTkwLTNlY2MtNDgxYi05ZjRmLTZiZDk3NGI3YTUxMSIsImMiOjJ9) |
 
 > 🟢 All dashboards are hosted publicly via [Power BI Service](https://app.powerbi.com/) and allow for full interactivity — filters, tooltips, and drilldowns.
 
