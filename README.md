@@ -40,3 +40,18 @@ Derived fields include:
 - `Adjusted_LTV`, `Return_Rate`, `Churned`, `Customer_Segment`, `ReturnCohort`, and more.
 
 ---
+
+## 📊 Visualizations
+
+Each objective features multiple Power BI visuals for data storytelling, including:
+- **Scatter plots**: Return Rate vs Adjusted LTV
+- **Bar charts**: Category-wise Return Rates
+- **Line charts**: Monthly Revenue vs Adjusted Revenue
+- **Histograms**: Return Distribution across Demographics
+- **Donut + KPI cards**: Global Revenue vs Return Impact
+- **Heatmaps and stacked visuals** for retention strategy breakdowns
+
+All visuals are interactive and were created in Power BI Desktop.
+
+---
+
