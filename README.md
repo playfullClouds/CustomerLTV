@@ -21,3 +21,22 @@ This analysis investigates the nuanced relationship between product returns and 
 5. **Do payment methods affect the likelihood of returns and their influence on LTV?**
 6. **How can we use return data to develop customer retention strategies?**
 
+
+
+## 🧰 Tools & Technologies
+
+- **SQL**: Core language used for data cleaning, transformation, cohort creation, and deriving metrics.
+- **Power BI**: Used to design professional, dynamic dashboards and visualizations aligned with each objective.
+- **Python**: Used only for downloading the dataset from Kaggle using the Kaggle API.
+
+---
+
+## 🗃️ Dataset
+
+The project uses a Kaggle dataset simulating retail customer behavior [here](https://www.kaggle.com/datasets/shriyashjagtap/e-commerce-customer-for-behavior-analysis). Key tables include:
+- `Customer_ID`, `Purchase_Date`, `Product_Category`, `Payment_Method`, `Purchase_Amount`, `Returns`, `Gender`, `Age`
+
+Derived fields include:
+- `Adjusted_LTV`, `Return_Rate`, `Churned`, `Customer_Segment`, `ReturnCohort`, and more.
+
+---
