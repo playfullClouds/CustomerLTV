@@ -86,3 +86,18 @@ This project has been published as a **3-part Medium series**, each article cove
 
 
 ---
+
+## 🧪 Reproduce This Project
+
+To replicate this project:
+
+1. Clone the repository:
+   ```bash
+   git clone https://https://github.com/playfullClouds/CustomerLTV.git
+   ```
+2. Use Python to extract the dataset from Kaggle (script optional).
+3. Run SQL scripts for metric calculation and cohort creation.
+4. Open Power BI Desktop and connect to your dataset or `.pbix` file.
+5. Explore interactive dashboards grouped by objectives.
+
+---
