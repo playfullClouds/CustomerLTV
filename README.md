@@ -277,31 +277,3 @@ This project has been published as a **3-part Medium series**, each article cove
 | Part 3 | Analyzing the Impact of Returns on Customer Lifetime Value (LTV): Turning Data into Actionable Insights. | [Medium Article - Part 3](https://medium.com/@obiakarije/part-3-analyzing-the-impact-of-returns-on-customer-lifetime-value-ltv-turning-data-into-5f6c1cfb8d90) |
 
 
----
-
-## 🧪 Reproduce This Project
-
-To replicate this project:
-
-1. Clone the repository:
-   ```bash
-   git clone https://https://github.com/playfullClouds/CustomerLTV.git
-   ```
-2. Use Python to extract the dataset from Kaggle (script optional).
-3. Run SQL scripts for metric calculation and cohort creation.
-4. Open Power BI Desktop and connect to your dataset or `.pbix` file.
-5. Explore interactive dashboards grouped by objectives.
-
----
-
-## 📁 Folder Structure
-
-```
-customer-ltv-analysis/
-│
-├── LICENSE
-├── LTV.png
-├── README.md
-```
-
----
