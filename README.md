@@ -293,3 +293,15 @@ To replicate this project:
 5. Explore interactive dashboards grouped by objectives.
 
 ---
+
+## 📁 Folder Structure
+
+```
+customer-ltv-analysis/
+│
+├── LICENSE
+├── LTV.png
+├── README.md
+```
+
+---
