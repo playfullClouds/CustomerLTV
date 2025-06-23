@@ -80,7 +80,7 @@ This project has been published as a **3-part Medium series**, each article cove
 
 | Part | Title | Objectives Covered | Link |
 |------|-------|---------------------|------|
-| Part 1 | Measuring the Impact of Returns on Customer LTV | Objectives 1 & 2 | [Medium Article - Part 1](#) |
+| Part 1 | Measuring the Impact of Returns on Customer LTV | Objectives 1 & 2 | [Medium Article - Part 1](https://medium.com/@obiakarije/part-1-analyzing-the-impact-of-returns-on-customer-lifetime-value-ltv-a-comprehensive-data-08c0e275a16f) |
 | Part 2 | Exploring Demographics and Return Behaviors | Objectives 3 & 4 | [Medium Article - Part 2](https://medium.com/@obiakarije/part-2-analyzing-the-impact-of-returns-on-customer-lifetime-value-ltv-fixing-missing-data-524b3f45969d) |
 | Part 3 | Payment Methods, Return Patterns, and Retention Strategy | Objectives 5 & 6 | [Medium Article - Part 3](https://medium.com/@obiakarije/part-3-analyzing-the-impact-of-returns-on-customer-lifetime-value-ltv-turning-data-into-5f6c1cfb8d90) |
 
