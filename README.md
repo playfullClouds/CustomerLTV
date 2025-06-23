@@ -38,6 +38,32 @@ GROUP BY Customer_ID;
 
 ---
 
+### 2️⃣ Which product categories have the highest return rates?
+
+**SQL Snippet:**
+```sql
+SELECT 
+    Product_Category,
+    COUNT(*) AS Total_Orders,
+    SUM(Total_Purchase_Amount) AS Total_Revenue,
+    SUM(CASE WHEN Returns = 1 THEN Total_Purchase_Amount ELSE 0 END) AS Total_Returns,
+    SUM(Total_Purchase_Amount) - SUM(CASE WHEN Returns = 1 THEN Total_Purchase_Amount ELSE 0 END) AS Adjusted_Revenue,
+    ROUND(
+        (CAST(SUM(CASE WHEN Returns = 1 THEN Total_Purchase_Amount ELSE 0 END) AS FLOAT) / 
+        SUM(Total_Purchase_Amount)) * 100, 2
+    ) AS Return_Rate_Percentage,
+    ROUND(
+        (SUM(Total_Purchase_Amount) - SUM(CASE WHEN Returns = 1 THEN Total_Purchase_Amount ELSE 0 END)) / 
+        COUNT(DISTINCT Customer_ID), 0
+    ) AS Avg_Adjusted_LTV_Per_Customer
+FROM CustBehavior
+GROUP BY Product_Category
+ORDER BY Return_Rate_Percentage DESC;
+```
+
+🔗 [View Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNGE2ZGE0OTgtYzRkNy00MzRhLWEwZjctYmUwZTMzNmU2ZTRjIiwidCI6ImQ2YzI2MTkwLTNlY2MtNDgxYi05ZjRmLTZiZDk3NGI3YTUxMSIsImMiOjJ9)
+
+---
 
 
 
