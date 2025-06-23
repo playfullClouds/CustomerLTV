@@ -9,6 +9,50 @@ Welcome to the official repository for the **Customer LTV Analytics Project**, a
 
 ---
 
+## 🎯 Project Objectives & SQL
+
+Each objective includes a core question, SQL logic, and a link to the interactive Power BI dashboard.
+
+---
+
+### 1️⃣ How do returns affect total Customer Lifetime Value (LTV)?
+
+**SQL Snippet:**
+```sql
+SELECT 
+    Customer_ID,
+    SUM(Total_Purchase_Amount) AS Total_Revenue,
+    SUM(CASE WHEN Returns = 1 THEN Total_Purchase_Amount ELSE 0 END) AS Total_Returns,
+    SUM(Total_Purchase_Amount) - 
+    SUM(CASE WHEN Returns = 1 THEN Total_Purchase_Amount ELSE 0 END) AS Adjusted_LTV,
+    -- Cast the numerator (Total_Returns) to FLOAT to avoid integer division
+    Round(
+		(CAST(SUM(CASE WHEN Returns = 1 THEN Total_Purchase_Amount ELSE 0 END) AS FLOAT) / 
+		SUM(Total_Purchase_Amount)) * 100, 2
+	) AS Return_Rate_Percentage
+FROM CustBehavior
+GROUP BY Customer_ID;
+```
+
+🔗 [View Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNjQ1MTQ4YzYtMzAyOC00NTc2LTg5Y2YtZDA0OWE0YTMyZjIxIiwidCI6ImQ2YzI2MTkwLTNlY2MtNDgxYi05ZjRmLTZiZDk3NGI3YTUxMSIsImMiOjJ9)
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
 ## 🚀 Project Overview
 
 This analysis investigates the nuanced relationship between product returns and customer value. Instead of assuming returns are always detrimental, the project breaks down patterns across segments, product categories, demographics, and payment methods. The findings inform smarter customer retention and product strategy decisions.
